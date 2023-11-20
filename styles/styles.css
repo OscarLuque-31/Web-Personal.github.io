@@ -17,7 +17,6 @@ body{
     justify-content: center;
     align-items: center;
     border: 2px grey solid;
-   
 }
 .cabecera img{
     height: auto;
@@ -41,11 +40,9 @@ body{
     width: 17vw;
     text-align: center;
     height: 8vh;
-    font-size: 17px;
+    font-size: 25px;
     border-radius: 13px;
-    border: 1px solid black;
-
-
+    
 }
 a:hover{
     background-color:#cf2626 ;
@@ -95,10 +92,12 @@ footer{
     border-radius: 10px;
 }
 iframe{
-    border: 3px solid grey
+    border: 3px solid grey;
+    height: 60vh;
+    width: 60vw;
 }
 /*Móvil Inicio*/
-@media (max-width:500px) {
+@media (max-width:460px) {
     .contenedor{
         display: flex;
         align-items: center;
@@ -106,7 +105,7 @@ iframe{
         flex-direction: column;
     }
     iframe{
-        height: 20vh;
+        height: 22vh;
         width: 90%;
         margin-bottom: 10px;
     }
@@ -135,6 +134,47 @@ iframe{
         padding: 5px;
     }
 }
+/*Tablet inicio*/
+@media (max-width:768px) {
+    .contenedor{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    iframe{
+        height: 30vh;
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    .navegacion a{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        padding: 10px;
+        margin-left: 3px;
+    }
+    .parrafo{
+        min-width: 80vw;
+        min-height: auto;
+    }  
+    .parrafoimagen img{
+        width: 80vw;
+    }
+    .cabecera img{
+        height: auto;
+        width: 20vw;
+    }
+    .navegacion a{
+        height: 2vh;
+        width: auto;
+        padding: 5px;
+    }
+
+   
+}
+
 
 
 /*Estilos contenido Categorias*/
@@ -150,7 +190,7 @@ iframe{
    
 }
 .texto{
-    width: 38.57vw;
+    width: 40vw;
     color: #cf2626;
 }
 .texto h1{
@@ -196,7 +236,7 @@ iframe{
 }
 
 /*Móvil Categorías*/
-@media (max-width:500px) {
+@media (max-width:460px) {
     .open{
         display: flex;
         flex-direction: column;
@@ -223,9 +263,40 @@ iframe{
     .imagen{
         width: 100%;
     }
-    
+}
+/*Tablet Categorías*/
+
+@media (max-width:768px) {
+    .open{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .mens{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .clasic{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .cat212{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .texto{
+        width: 100%;
+    }
+    .imagen{
+        width: 100%;
+    }
 
 }
+
+
 
 
 /*Estilos contenido Ganadores*/
