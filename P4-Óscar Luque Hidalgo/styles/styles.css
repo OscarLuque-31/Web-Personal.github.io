@@ -1,0 +1,328 @@
+
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    height: auto;
+    background-color: #3c3c3c;
+    font-family: 'Gabarito', sans-serif;
+}
+.cabecera{
+    padding: 1vh;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    border: 2px grey solid;
+   
+}
+.cabecera img{
+    height: auto;
+    width: 15vw;
+}
+.navegacion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 90%;
+}
+
+.navegacion a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #cf2626;
+    display: flex;
+    width: 17vw;
+    text-align: center;
+    height: 8vh;
+    font-size: 17px;
+    border-radius: 13px;
+    border: 1px solid black;
+
+
+}
+a:hover{
+    background-color:#cf2626 ;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-size: 10px;
+    border: 2px solid grey;
+    background-color: white;
+    color : #cf2626;
+}
+
+/*Estilos contenido Inicio*/
+.contenedor{
+    min-height: 76.7vh;
+    display: flex;
+    background-image: url(../images/1999-Olympia-Greatest-Of-All-Time.jpeg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    
+}
+.parrafo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    color:#cf2626;
+    border: 2px solid grey;
+    border-radius: 15px;
+    width:27vw;
+    min-height: 60vh;
+    font-size: 18px;
+    
+}
+.parrafoimagen img{
+    width: 27vw;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+iframe{
+    border: 3px solid grey
+}
+/*Móvil Inicio*/
+@media (max-width:500px) {
+    .contenedor{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    iframe{
+        height: 20vh;
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    .navegacion a{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        padding: 10px;
+        margin-left: 3px;
+    }
+    .parrafo{
+        min-width: 80vw;
+        min-height: auto;
+    }  
+    .parrafoimagen img{
+        width: 80vw;
+    }
+    .cabecera img{
+        height: auto;
+        width: 20vw;
+    }
+    .navegacion a{
+        height: 2vh;
+        width: auto;
+        padding: 5px;
+    }
+}
+
+
+/*Estilos contenido Categorias*/
+
+.imagen{
+    display: flex;
+    width: 60vw;
+    height: auto;
+}
+.imagen img{
+   width: 100%;
+   height: auto;
+   
+}
+.texto{
+    width: 38.57vw;
+    color: #cf2626;
+}
+.texto h1{
+    text-align: center;
+    font-size: 40px;
+}
+.texto p{
+    font-size: 25px;
+    padding: 15px;
+}
+
+.open{
+    display: flex;
+    min-height: 50vh;
+    border: 3px solid grey;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.mens{
+    display: flex;
+    min-height: 50vh;
+    border: 3px solid grey;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.clasic{
+    display: flex;
+    min-height: 50vh;
+    border: 3px solid grey;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.cat212{
+    display: flex;
+    min-height: 50vh;
+    border: 3px solid grey;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Móvil Categorías*/
+@media (max-width:500px) {
+    .open{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .mens{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .clasic{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .cat212{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .texto{
+        width: 100%;
+    }
+    .imagen{
+        width: 100%;
+    }
+    
+
+}
+
+
+/*Estilos contenido Ganadores*/
+
+.ganOpen{
+    text-align: center;
+
+}
+.ganOpen h1{
+    padding: 15px;
+    margin: 0%;
+    
+    background-color: white;
+    color:#cf2626;
+    border: 2px solid grey;
+   
+}
+.ganMens{
+    text-align: center;
+
+}
+.ganMens h1{
+    padding: 15px;
+    margin: 0%;
+    margin-top: 10px;
+    background-color: white;
+    color:#cf2626;
+    border: 2px solid grey;
+   
+}
+.ganClasic{
+    text-align: center;
+
+}
+.ganClasic h1{
+    padding: 15px;
+    margin: 0%;
+    margin-top: 10px;
+    background-color: white;
+    color:#cf2626;
+    border: 2px solid grey;
+   
+}
+.gan212{
+    text-align: center;
+    
+
+}
+.gan212 h1{
+    padding: 15px;
+    margin: 0%;
+    margin-top: 10px;
+    background-color: white;
+    color:#cf2626;
+    border: 2px solid grey;
+   
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+    color: #cf2626;
+}
+
+th, td {
+    border: 1px solid grey;
+    text-align: left;
+    padding: 8px;
+}
+td{
+    background-color: rgb(210, 209, 207);
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/*Estilos contenido Encuesta*/
+
+.contenedorEncuesta{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    display: flex;
+    border: 3px solid grey;
+    justify-content: center;
+    align-items: center;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    
+}
