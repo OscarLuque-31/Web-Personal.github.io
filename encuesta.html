@@ -22,6 +22,17 @@
     
     <div class="contenedorEncuesta">
         <form action="">
+            <div class="nombreapellido">
+            <label for="nombre" class="label">Nombre: <input class="inputUsuario" type="text" id="nombre" name="nombre" required pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" title="Ingresa un nombre válido"></label>
+            <label for="apellido" style="padding-left: 20px;" class="label">Apellidos: <input  class="inputUsuario" type="text" id="apellido" name="apellido" pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s-]+" title="Solo letras, espacios y guiones permitidos" required></label>
+            </div>
+            <label for="tele" class="label">Teléfono: </label>
+            <input class="inputTelefo" type="text" id="tele" name="tele" required pattern="[0-9]{9}" title="Ingresa un número de teléfono válido">
+            <label for="email" class="label">Email: </label>
+            <input class="inputEmail" type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" required>
+        
+            <h1>Preguntas</h1>
+
             <label for="categoria-favorita" class="label">¿Cuál es tu categoría favorita?</label><br><input type="text" id="categoria-favorita">
             <label for="competir" class="label">¿Alguna vez has pensado en competir?</label><br><input type="text" id="competir">
             <label for="deporte-sacrificado" class="label">¿Crees que el culturismo es un deporte sacrificado?</label><br><input type="text" id="deporte-sacrificado">
@@ -34,7 +45,15 @@
                 <option value="NO">NO</option>
             </select>
             </div>
-        </form>
+            <div class="elegir">
+                <label for="si">¿Vas al gimnasio?</label>
+                <select name="si" id="si">
+                    <option value="SI">SI</option>
+                    <option value="NO">NO</option>
+                </select>
+                </div>
+                <input class="enviar" type="submit" id="enviar" value="Enviar">
+        </form> 
     </div>
     
     <footer>

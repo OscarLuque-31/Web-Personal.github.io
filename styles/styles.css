@@ -1,4 +1,3 @@
-
 a{
     text-decoration: none;
 }
@@ -29,7 +28,6 @@ body{
     height: 10vh;
     width: 90%;
 }
-
 .navegacion a {
     display: flex;
     justify-content: center;
@@ -42,7 +40,6 @@ body{
     height: 8vh;
     font-size: 25px;
     border-radius: 13px;
-    
 }
 a:hover{
     background-color:#cf2626 ;
@@ -68,7 +65,6 @@ footer{
     background-size: cover;
     justify-content: center;
     align-items: center;
-    
 }
 .parrafo{
     display: flex;
@@ -83,8 +79,7 @@ footer{
     border-radius: 15px;
     width:27vw;
     min-height: 60vh;
-    font-size: 18px;
-    
+    font-size: 18px;    
 }
 .parrafoimagen img{
     width: 27vw;
@@ -134,7 +129,9 @@ iframe{
         padding: 5px;
     }
 }
+
 /*Tablet inicio*/
+
 @media (max-width:768px) {
     .contenedor{
         display: flex;
@@ -170,12 +167,8 @@ iframe{
         height: 2vh;
         width: auto;
         padding: 5px;
-    }
-
-   
+    }   
 }
-
-
 
 /*Estilos contenido Categorias*/
 
@@ -186,8 +179,7 @@ iframe{
 }
 .imagen img{
    width: 100%;
-   height: auto;
-   
+   height: auto;  
 }
 .texto{
     width: 40vw;
@@ -201,7 +193,6 @@ iframe{
     font-size: 25px;
     padding: 15px;
 }
-
 .open{
     display: flex;
     min-height: 50vh;
@@ -240,22 +231,18 @@ iframe{
     .open{
         display: flex;
         flex-direction: column;
-        
     }
     .mens{
         display: flex;
         flex-direction: column;
-        
     }
     .clasic{
         display: flex;
         flex-direction: column;
-        
     }
     .cat212{
         display: flex;
         flex-direction: column;
-        
     }
     .texto{
         width: 100%;
@@ -270,22 +257,18 @@ iframe{
     .open{
         display: flex;
         flex-direction: column;
-        
     }
     .mens{
         display: flex;
         flex-direction: column;
-        
     }
     .classic{
         display: flex;
         flex-direction: column;
-        
     }
     .cat212{
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: column;   
     }
     .texto{
         width: 100%;
@@ -293,7 +276,6 @@ iframe{
     .imagen{
         width: 100%;
     }
-
 }
 
 
@@ -303,20 +285,16 @@ iframe{
 
 .ganOpen{
     text-align: center;
-
 }
 .ganOpen h1{
     padding: 15px;
     margin: 0%;
-    
     background-color: white;
     color:#cf2626;
     border: 2px solid grey;
-   
 }
 .ganMens{
     text-align: center;
-
 }
 .ganMens h1{
     padding: 15px;
@@ -325,11 +303,9 @@ iframe{
     background-color: white;
     color:#cf2626;
     border: 2px solid grey;
-   
 }
 .ganClasic{
     text-align: center;
-
 }
 .ganClasic h1{
     padding: 15px;
@@ -338,12 +314,9 @@ iframe{
     background-color: white;
     color:#cf2626;
     border: 2px solid grey;
-   
 }
 .gan212{
     text-align: center;
-    
-
 }
 .gan212 h1{
     padding: 15px;
@@ -352,15 +325,12 @@ iframe{
     background-color: white;
     color:#cf2626;
     border: 2px solid grey;
-   
 }
 table {
     width: 100%;
-    border-collapse: collapse;
-    
+    border-collapse: collapse;   
     color: #cf2626;
 }
-
 th, td {
     border: 1px solid grey;
     text-align: left;
@@ -369,7 +339,6 @@ th, td {
 td{
     background-color: rgb(210, 209, 207);
 }
-
 th {
     background-color: #f2f2f2;
 }
@@ -377,11 +346,11 @@ th {
 /*Estilos contenido Encuesta*/
 
 .contenedorEncuesta{
-    min-height: 100vh;
+    min-height: 180vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/images/escenario.jpeg);
+    background-image: url(../images/escenario.jpeg);
     background-size: cover;
 }
 .formulario{
@@ -400,25 +369,55 @@ form{
     border-radius: 10px;
     min-height: 90vh;  
     text-align: center;
-    width: 80%;
+    width: 70%;
     font-size: 20px;
+    padding: 10px;
 }
-
 .label{
     padding-top: 20px;
 }
 input{
-    width: 70vw;
+    width: 60vw;
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid black;
 }
 .elegir{
     padding-top: 20px;
     display: flex;
     align-items: center;
+    margin-bottom: 1vw;
 }
 .elegir select{
     margin-left:5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   
+ }
+.inputUsuario{
+    width: 30vw;
+    border: 1px solid black;
+}
+.inputEmail{
+    width: 60vw;
+}
+.inputTelefo{
+    width: 30vw;
+}
+.nombreapellido{
+    display: flex;
+    align-items: center;
+}
+.enviar{
+    border: 2px solid grey;
+    border-radius: 15px;
+    width: auto;
+    padding: 5px 10px;
+    margin: 10px;
+    background-color: #ffffff;
+    color: #cf2626;
+    font-size: 20px;
+}
+
+.enviar:hover{
+    background-color: #cf2626;
+    color: white;
 }
