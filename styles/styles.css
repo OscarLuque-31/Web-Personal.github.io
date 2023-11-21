@@ -124,7 +124,7 @@ iframe{
         width: 20vw;
     }
     .navegacion a{
-        height: 2vh;
+        height: 4vh;
         width: auto;
         padding: 5px;
     }
@@ -149,7 +149,7 @@ iframe{
         display: flex;
         justify-content: center;
         align-items: center;    
-        padding: 10px;
+        padding: 20px;
         margin-left: 3px;
     }
     .parrafo{
@@ -164,7 +164,7 @@ iframe{
         width: 20vw;
     }
     .navegacion a{
-        height: 2vh;
+        height: 4vh;
         width: auto;
         padding: 5px;
     }   
@@ -420,4 +420,16 @@ input{
 .enviar:hover{
     background-color: #cf2626;
     color: white;
+}
+@media (max-width:460px) {
+    .contenedorEncuesta{
+        min-height: auto;
+    }
+    form{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+
 }
