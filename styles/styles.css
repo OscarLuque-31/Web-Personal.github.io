@@ -218,7 +218,7 @@ iframe{
     justify-content: center;
     align-items: center;
 }
-.clasic{
+.classic{
     display: flex;
     min-height: 50vh;
     border: 3px solid grey;
@@ -277,7 +277,7 @@ iframe{
         flex-direction: column;
         
     }
-    .clasic{
+    .classic{
         display: flex;
         flex-direction: column;
         
@@ -381,19 +381,44 @@ th {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(/images/escenario.jpeg);
+    background-size: cover;
 }
 .formulario{
     display: flex;
     border: 3px solid grey;
     justify-content: center;
     align-items: center;
-    
 }
 form{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    border: 3px solid white;
-    
+    border: 3px solid grey;
+    color: #cf2626;
+    background-color: white;
+    border-radius: 10px;
+    min-height: 90vh;  
+    text-align: center;
+    width: 80%;
+    font-size: 20px;
+}
+
+.label{
+    padding-top: 20px;
+}
+input{
+    width: 70vw;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.elegir{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.elegir select{
+    margin-left:5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
 }
