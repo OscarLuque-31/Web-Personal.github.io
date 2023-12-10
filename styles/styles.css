@@ -2,6 +2,7 @@ a{
     text-decoration: none;
 }
 body{
+    text-align: justify;
     margin: 0%;
     padding: 0%;
     width: auto;
@@ -51,7 +52,7 @@ footer{
     justify-content: center;
     align-items: center;
     height: 10vh;
-    font-size: 10px;
+    font-size: 12px;
     border: 2px solid grey;
     background-color: white;
     color : #cf2626;
@@ -61,10 +62,11 @@ footer{
 .contenedor{
     min-height: 76.7vh;
     display: flex;
+    align-items:center;
+    justify-content: space-between;
     background-image: url(../images/1999-Olympia-Greatest-Of-All-Time.jpeg);
     background-size: cover;
-    justify-content: center;
-    align-items: center;
+    
 }
 .parrafo{
     display: flex;
@@ -72,24 +74,28 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 15px;
-    margin: 10px;
+    margin-left: 90px;
     background-color: white;
     color:#cf2626;
     border: 2px solid grey;
     border-radius: 15px;
     width:27vw;
     min-height: 60vh;
-    font-size: 18px;    
+    font-size: 20px;    
 }
-.parrafoimagen img{
+.parrafoimagen iframe{
     width: 27vw;
+    height: 33vh;
     margin-top: 20px;
     border-radius: 10px;
 }
-iframe{
+img.imagenroni{
+    display: flex;
     border: 3px solid grey;
-    height: 60vh;
-    width: 60vw;
+    border-radius: 15px;
+    max-width: 100%;
+    margin-right: 90px;
+    width: 55vw;
 }
 /*Móvil Inicio*/
 @media (max-width:460px) {
@@ -172,6 +178,9 @@ iframe{
 
 /*Estilos contenido Categorias*/
 
+.contenedorCatego{
+    background-color: #722c2c;
+}
 .imagen{
     display: flex;
     width: 60vw;
@@ -183,7 +192,7 @@ iframe{
 }
 .texto{
     width: 40vw;
-    color: #cf2626;
+    color: #ffffff;
 }
 .texto h1{
     text-align: center;
@@ -197,7 +206,6 @@ iframe{
     display: flex;
     min-height: 50vh;
     border: 3px solid grey;
-    background-color: white;
     justify-content: center;
     align-items: center;
 }
@@ -205,7 +213,6 @@ iframe{
     display: flex;
     min-height: 50vh;
     border: 3px solid grey;
-    background-color: white;
     justify-content: center;
     align-items: center;
 }
@@ -213,7 +220,6 @@ iframe{
     display: flex;
     min-height: 50vh;
     border: 3px solid grey;
-    background-color: white;
     justify-content: center;
     align-items: center;
 }
@@ -221,7 +227,6 @@ iframe{
     display: flex;
     min-height: 50vh;
     border: 3px solid grey;
-    background-color: white;
     justify-content: center;
     align-items: center;
 }
@@ -346,7 +351,7 @@ th {
 /*Estilos contenido Encuesta*/
 
 .contenedorEncuesta{
-    min-height: 180vh;
+    min-height: 140vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -416,7 +421,6 @@ input{
     color: #cf2626;
     font-size: 20px;
 }
-
 .enviar:hover{
     background-color: #cf2626;
     color: white;
@@ -429,7 +433,4 @@ input{
         margin-top: 10px;
         margin-bottom: 10px;
     }
-
-
-
 }
