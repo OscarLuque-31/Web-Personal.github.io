@@ -74,14 +74,14 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 15px;
-    margin-left: 90px;
     background-color: white;
     color:#cf2626;
     border: 2px solid grey;
     border-radius: 15px;
     width:27vw;
     min-height: 60vh;
-    font-size: 20px;    
+    font-size: 20px;
+    margin-left: 10px;   
 }
 .parrafoimagen iframe{
     width: 27vw;
@@ -94,8 +94,8 @@ img.imagenroni{
     border: 3px solid grey;
     border-radius: 15px;
     max-width: 100%;
-    margin-right: 90px;
     width: 55vw;
+    margin-right: 10px;
 }
 /*Móvil Inicio*/
 @media (max-width:460px) {
@@ -106,7 +106,7 @@ img.imagenroni{
         flex-direction: column;
     }
     iframe{
-        height: 22vh;
+        height: 30vh;
         width: 90%;
         margin-bottom: 10px;
     }
@@ -115,14 +115,15 @@ img.imagenroni{
         display: flex;
         justify-content: center;
         align-items: center;    
-        padding: 10px;
+        padding: 20px;
         margin-left: 3px;
     }
     .parrafo{
         min-width: 80vw;
         min-height: auto;
+        margin-left: -10px;
     }  
-    .parrafoimagen img{
+    .parrafoimagen iframe{
         width: 80vw;
     }
     .cabecera img{
@@ -133,7 +134,12 @@ img.imagenroni{
         height: 4vh;
         width: auto;
         padding: 5px;
-    }
+    } 
+    img.imagenroni{
+        width: 90vw;
+        margin-bottom: 10px;
+    }   
+
 }
 
 /*Tablet inicio*/
@@ -161,8 +167,9 @@ img.imagenroni{
     .parrafo{
         min-width: 80vw;
         min-height: auto;
+        margin-left: -10px;
     }  
-    .parrafoimagen img{
+    .parrafoimagen iframe{
         width: 80vw;
     }
     .cabecera img{
@@ -173,7 +180,11 @@ img.imagenroni{
         height: 4vh;
         width: auto;
         padding: 5px;
-    }   
+    } 
+    img.imagenroni{
+        width: 90vw;
+        margin-bottom: 10px;
+    }  
 }
 
 /*Estilos contenido Categorias*/
